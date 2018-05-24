@@ -10,23 +10,66 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
 
     <!-- Font Awsome CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/components-font-awesome/css/fontawesome-all.min.css">
   </head>
   <body>
-      
-    <div class="jumbotron text-center">
+    <!-- Header Area -->
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+
+                <!-- Navbar Hide Area -->
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Action 1</a>
+                                <a class="dropdown-item" href="#">Action 2</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-3">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+                <!-- Navbar Hide Area End -->
+
+                <!-- Navbar Area -->
+                <a class="navbar-brand" href="#">
+                  <i class="fab fa-accessible-icon fa-1x text-light mr-2"></i>
+                  <strong>Crazy Cats</strong> 
+                </a>
+  
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId">
+                    <i class="fas fa-align-justify fa-1x"></i>
+                </button>
+                <!-- Navbar Area End -->
+          </div>
+        </nav> 
+    </header>
+    <!-- Header Area -->
+
+
+    <!-- jumbotron Area -->
+    <section class="jumbotron text-center">
       <div class="container">
-        <h1 class="display-4">This is First B4 Practise</h1>
-        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia maiores voluptatem ipsam earum in aperiam veniam minima assumenda rem tenetur?</p>
-        <hr class="my-2">
-        <p>More info</p>
-        <p class="lead">
-          <a class="btn btn-primary" href="Jumbo action link" role="button">Jumbo action One</a>
-          <a class="btn btn-secondary" href="Jumbo action link" role="button">Jumbo action Two</a>
-        </p>
+          <h1 class="display-4">This is First B4 Practise</h1>
+          <p class="lead mx-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia maiores voluptatem ipsam earum in aperiam veniam minima assumenda rem tenetur?</p>
+          <hr class="my-2">
+          <p>More info</p>
+          <a class="btn btn-primary lead" href="#">Please Subscribe</a>
+          <a class="btn btn-secondary lead" href="#">Join with Us</a>
       </div>
-    </div>
-    
+    </section>
+    <!-- jumbotron AreaEnd -->
 
 
     <!-- Optional JavaScript -->
