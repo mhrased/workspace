@@ -1,0 +1,22 @@
+{
+  "name": "b4",
+  "homepage": "https://github.com/rasu007/workspace",
+  "authors": [
+    "rasedr007 <rashed.wd@gmail.com>"
+  ],
+  "description": "Bootstap 4 practise",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
