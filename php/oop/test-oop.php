@@ -14,15 +14,46 @@
     <!-- Body Area -->
 
 
-    <div class="contaner">
-        <header class="header bg-primary">
-            <div class="row">
-                <div class="col-md-8">
-                    <h4>This is Test OOP</h4>
+    <div class="container border border-secondary px-0">
+        <header class="header">
+            <div class="jumbotron jumbotron-fluid text-center bg-info text-white p-3">
+                <div class="container">
+                    <h1 class="display-3">Welcome to OOP</h1>
+                    <p class="lead">This is oop Practise</p>
                 </div>
             </div>
         </header>
-        <footer class="footer"></footer>
+        <section class="main-body p-3" style="min-height:300px">
+            <?php
+
+                // create Class
+                class myClass{
+                    // These Are Property
+                    public $fname = "Mehedi Hasan";
+                    public $lname = "Rashed";
+                    public $age   = "23";
+                    
+                    //These Are Methode
+                    public function NameAnother($value){
+                        echo "His Name is : " . $this->fname = $value;
+                    }
+                    
+                }
+                
+                $MyClass = new myClass;
+                echo "My name is : " . $MyClass->fname . " " . $MyClass->lname . " And I am " . $MyClass->age . " years old.<br />";
+
+                $MyClass->NameAnother("Mahmud Hasan Rasel.");
+            
+            ?>
+        </section>
+        <footer class="footer bg-info py-3">
+            <div class="row">
+                <div class="col-md-8 offset-2">
+                    <h5 class="text-white text-center">Thanks For with us</h5>
+                </div>
+            </div>
+        </footer>
     </div>
 
 
