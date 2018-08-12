@@ -1,0 +1,28 @@
+{
+   "contacts" :[
+      {
+         "id": 1,
+         "name": "Hasan Rased",
+         "email" : "rasedr007@gamil.com",
+         "age" : "24"
+      },
+      {
+         "id": 2,
+         "name": "Mahmudul Hasan",
+         "email" : "rasel.wp@gamil.com",
+         "age" : "26"
+      },
+      {
+         "id": 3,
+         "name": "Prianjoly Alam",
+         "email" : "prity@gamil.com",
+         "age" : "18"
+      },
+      {
+         "id": 4,
+         "name": "Parul Akter",
+         "email" : "parul@gamil.com",
+         "age" : "38"
+      }
+   ]
+}
